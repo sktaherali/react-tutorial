@@ -3,6 +3,5 @@ const headingChild1 = React.createElement("h1", { id: "heading1" }, "Hello World
 
 const heading = React.createElement("div", { id: "heading" },  [headingChild,headingChild1]);
 
-console.log(heading.props);
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(heading);
